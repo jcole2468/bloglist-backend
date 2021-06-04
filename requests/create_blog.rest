@@ -1,0 +1,11 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ik1DT0xFIiwiaWQiOiI2MGE5MWExNDg0NjQyODIyNzdiYjM1ZjgiLCJpYXQiOjE2MjE2OTUwNTZ9.fAMVinECIWj3QNsik32UuxW2j5v0od6WVgm0aCT4Xi4
+
+{
+  "title": "Show Visible",
+  "author": "Myles Coleman",
+  "url": "www.amazingskylights.com",
+  "likes": 47,
+  "userId": "60a91a148464282277bb35f8"
+  }
